@@ -2,7 +2,7 @@ if (typeof AFRAME === 'undefined') {
     throw new Error('Component attempted to register before AFRAME was available.');
 }
 
-require('./lib/THREE.MeshLine');
+require('./lib/THREE.MeshLine'); 
 //var MeshLine = require( 'three.meshline' ); 
 
 AFRAME.registerComponent('meshline', {
